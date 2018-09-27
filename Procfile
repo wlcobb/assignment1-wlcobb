@@ -1,1 +1,1 @@
-﻿web: gunicorn assignment1-wcobb.wsgi --log-file –
+﻿web: gunicorn mysite.wsgi --log-file –
