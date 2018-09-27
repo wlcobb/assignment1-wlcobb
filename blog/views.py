@@ -7,7 +7,6 @@ from .forms import EmailPostForm
 from django.http import HttpResponse
 
 
-
 def post_list(request):
     object_list = Post.published.all()
     paginator = Paginator(object_list, 3) # 3 posts in each page
